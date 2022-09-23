@@ -1,0 +1,815 @@
+[TreeMainMenu]
+0=ARD001
+1=Базовая информация
+2=Общая настройка
+3=Пункты меню
+4=Программирование кнопок
+5=Текстовые сообщения
+6=На-ки конфиденциальности
+7=Цифр-я аварийная система
+8=Цифровой контакт
+9=Циф-й групповой вызов RX
+10=Информация о Зоне
+11=Список сканирования
+12=Информация о канале
+13=DTMF-сигналы
+14=Режим VFO
+15=Система GPS
+[MENU]
+FILE=&Файл
+FILE_NEW=&Новый\tCtrl+N
+FILE_OPEN=&Открыть...\tCtrl+O
+FILE_SAVE=&Сохранить\tCtrl+S
+FILE_SAVE_AS=Сохранить &как...
+FILE_PRINT=&Print...\tCtrl+P
+FILE_PRINT_PREVIEW=Print Pre&view
+APP_EXIT=В&ыход
+
+
+EDIT=&Редактир.
+EDIT_BASICINFO=Базовая информация
+EDIT_GENERALSETTING=Общая настройка
+EDIT_MENUITEM=Пункты меню
+EDIT_BUTTONS=Программирование кнопок
+EDIT_TEXTMESSGE=Текстовые сообщения
+EDIT_PRIVACYSETTING=Настройки конфиденциальности
+EDIT_EMERGENCYSYSTEM=Цифровая аварийная система
+EDIT_CONTACT=Цифровой контакт
+EDIT_RXGROUPCALL=Цифровой групповой вызов RX
+EDIT_ZONE=Информация о Зоне
+EDIT_SCANLIST=Список сканирования
+EDIT_CHANNELINFO=Информация о канале
+EDIT_DTMFSIGNALING=DTMF-сигналы
+EDIT_TIMESETTING=Настройки времени
+EDIT_VFOMODE=Режим VFO
+EDIT_GPSSYSTEM=Система GPS
+
+PROGRAM=&Передать
+PROGRAM_READDATA=&Считаь из радио\tCtrl+R
+PROGRAM_WRITEDATA=&Записать в радио\tCtrl+W
+PROGRAM_TESTMODE=&Тестовый режим\tCtrl+T
+PROGRAM_WRITECONTACTS=Записать контакты
+
+
+SETTING=&Настройки
+SETTING_CHINESE=Русский
+SETTING_ENGLISH=Englsih
+
+VIEW=&Просмотр
+VIEW_TREEBAR=&Дерево
+VIEW_TOOLBAR=&Панель инструментов
+VIEW_STATUS_BAR=&Строка состояния
+
+WINDOW=&Окно вид
+WINDOW_CASCADE=&Каскадный
+WINDOW_TILE_HORZ=&Плитка
+WINDOW_ARRANGE=&Упорядочить значки
+
+HELP=&Помощь
+HELP_HELP=&Помощь
+APP_ABOUT=&О программе...         Есть немного информации о радиостанции RT3s на форуме http://forum.auto-cb18.ru/
+
+
+MENU_ADD=&Добавить
+MENU_COPY=&Копировать
+MENU_PASTE=&Вставить
+MENU_DELETE=&Удалить
+
+[String]
+IDS_WARN_CLEAR=Все данные будут очищены.
+IDS_WARN=Внимание!
+
+
+IDS_TIP_32783=Считать из Радио
+IDS_TIP_32784=Записать в Радио
+IDS_TIP_57600=Новый
+IDS_TIP_57601=Открыть
+IDS_TIP_57603=Сохранить
+IDS_TIP_57607=Печать
+IDS_TIP_32787=Помощь
+
+IDS_CONTINUE=Continue
+IDS_HANG=Hang
+IDS_NUMBERKEY=Number Key
+IDS_OFF=Off
+IDS_NONE=None
+IDS_YES=Yes
+IDS_NO=No
+IDS_EXIST_NAME=Name is already exist!
+IDS_EXIST_CALLID=Call ID is already exist!
+IDS_INFINITE=Infinite
+IDS_PROMPT_GROUPLISTMEMBER=Contact member shall not be greater than 32!
+IDS_PROMPT_CHANNELMEMBER=Channel member shall not be greater than 64!
+IDS_PROMPT_CHANNELMEMBER1=Channel member shall not be greater than 31!
+IDS_SELECTED=Выбранный
+IDS_LASTACTIVE=Last Active Channel
+IDS_WARN_LOAD=The Model is wrong!
+IDS_WARN_FREQRANGE=The Frequency Range is wrong!
+IDS_ERROR_PASSWORD=The password is wrong!
+IDS_PROMPT_PASSWORDSUCC=Change password succ!
+
+IDS_UNNAMEDDFUDEVICCE= Unnamed DFU!
+IDS_UNKNOWHIDDEVICE=Unknow HID!
+
+IDS_PROMPT=Prompting
+IDS_PROMPT_READ=Reading data from radio...
+IDS_PROMPT_WRITE=Writing data to radio...
+IDS_PROMPT_READFAIL=Read data fail!
+IDS_PROMPT_WRITEFAIL=Write data fail!
+IDS_PROMPT_READSUCC=Read data succ!
+IDS_PROMPT_WRITESUCC=Write data succ!
+IDS_READDATA=Read data from radio
+IDS_WRITEDATA=Write data to radio
+IDS_PROMPT_EXPORTSUCC=Export succ!
+IDS_PROMPT_IMPORTSUCC=Import succ!
+IDS_PROMPT_VERSIONERROR=Firmware Error!
+
+IDS_MODELSETTING=Model Information
+
+IDS_ERROR=Error
+IDS_ERROR_PORTCONN=Please check whether the USB is occupied or not connected.
+
+IDS_RXFREQ=Rx Freq :
+IDS_TXFREQ=Tx Freq :
+IDS_CHANNEL=CH
+
+
+IDS_PCSOFTWARE=0112
+IDS_VERSION=Version : V1.12
+IDS_COPYRIGHT=Copyright : Shenzhen Retevis Electronics Technology Co., Ltd
+IDS_ABOUTCOPYRIGHT=Copyright : Shenzhen Retevis Electronics Technology Co., Ltd
+IDS_NAME=Name : 
+IDS_PROGRAM=Radio Programming Software
+
+
+IDS_DTMFSYSTEM=Система
+IDS_DTMFENCODE=Шифровать Encode
+IDS_DTMFDECODE=Раскодировать Decode
+IDS_DKEY=D Key
+IDS_CURRENTCH=Выбранный
+
+IDS_PASSWORDEIGHT=Password is less than 8 digits!
+IDS_MANUAL=Ручная
+IDS_ALWAYS=Всегда
+
+IDS_EMERGENCYONOFF=Emergency On/Off
+IDS_GPSCURRENTCH=Current CH
+[Resource]
+1=OK
+2=Cancel
+114=Test Mode
+132=Adjust Mode
+147=Please input the password
+159=Please input the password
+160=Change Password
+161=Настройки времени
+1000=Дата программирования
+1002=Название модели
+1004=Frequency Range A
+1006=Model Number
+1008=Main Model
+1010=Серийный номер
+1012=Версия прогр.обесп. CPS
+1013=Cancel
+1014=Версия аппаратного обесп.
+1017=Версия прошивки
+1019=Уникальный Device ID
+1021=Frequency Range B
+1023=Диапазон частот
+1055=Digital/Analog Data
+1056=Digital Data
+1057=Analog Data
+1058=Read
+1059=Write
+1060=Export
+1061=Import
+
+1082=Old Password:
+1084=New Password:
+1089=Please input the password:
+1092=Read
+1093=Write
+1094=Time Setting
+1096=Current Time
+1100=Private Calls
+1101=Отключить все светодиоды
+1102=Тип Монитора
+1104=Analog Mic AGC
+1105=Digital Mic AGC
+1106=Передавать Преамбулу
+1107=Принимать Преамбулу
+1108=Отключить все Сигналы
+1109=Escalert Tone
+1110=Сигнал: Канал Свободен
+1111=Включ. пароль и блокировку
+1112=Сигнал разрешения разговоров
+1114=Scan Priority Alert
+1115=ID Радиостанции 
+1117="Разогрев" перед TX [ms]
+1120=Время зависания Группового выз. [ms]
+1123=Время зависания Приватного выз. [ms]
+1126=Чувствительность VOX
+1128=Analog Mic Gain
+1131=Digital Mic Gain
+1134="Батарея разряж."- напоминать ...[s]
+1137=Длительность звонка вызова[s]
+1140=Отмечаться с интервалом [min]
+1143=Время напоминания [s]
+1146=Privacy Type
+1148=Цифра - Время зависания [ms]
+1151=Аналог - Время зависания [ms]
+1154=Пароль на включение
+1156=Имя Радиостанции
+1158=Сканирование
+1159=Звуковые Сигналы
+1160=Одинокий Работник
+1161=MIC
+1162=Прямой канал (Talkaround)
+1163=Сохранение Энергии
+1164=Голосом номер канала
+1165=Пароль для программирования с ПК
+1167=Язык
+1169=Пароль на включение
+1170=Голосовое извещение
+1171=Пароль для ProgramRadio в Радио
+1173=Блокировать клавиатуру через.. [s]
+1175=Время подсветки дисплея [s]
+1177=Экран приветствия
+1178=Вид приветствия
+1180=Текст приветствия Линия 1
+1182=Текст приветствия Линия 2
+
+
+1184=Mode (Отображение на дисплее)
+1186=Выбор режима для 'A'
+1190=Выбор режима для 'B'
+1192=Часовой пояс
+1194=Групповые вызовы
+1195=Индивидуальные вызовы
+1196=Время перехвата каналов [ms]
+
+1200=Радиостанция +ID 1
+1202=Радиостанция +ID 2
+1204=Радиостанция +ID 3
+1206=АвтоВыключение ...[min]
+1208=Усиление Микроф.
+1210=Менять Радио ID
+1211=Общественн.Зона
+
+1250=АвтоВыход через.[s]
+1253=Текст.сообщения
+1254=Call Alert
+1255=Edit
+1256=Manual Dial
+1257=Radio Check
+1258=Remote Monitor
+1259=Radio Enable
+1260=Radio Disable
+1261=Program Key
+1262=Scan
+1263=Изменить(Edit)
+1264=Пропущен.(Missed) 
+1265=Отвеч.(Answered)
+1266=Исходящ.(Outgoing
+1267=Talkaround
+1268=Звуки и Тоны
+1269=Выбор мощности Tx
+1270=Время подсветки [s]
+1271=Выбор экр.приветств
+1272=Блокировка кнопок
+1273=LED Indicator
+1274=Настр. шумоподав.
+1275=Privacy
+1276=VOX
+1277=Пароли и Блокир.
+1278=Контакты (Contacts)
+1279=Сканирование (Scan)
+1280=Журнал вызовов (Call Log)
+1281=Утилиты (Utilities)
+1282=Программир.каналов
+1283=Режим отображения
+1284=GPS
+1285=Зоны
+1286=Зоны (Zone)
+1287=Групповые вызовы
+1288=Приватные вызовы
+1289=АвтоВых. из Menu [s]
+1290=ON/OFF Диктофона
+1291=Время зависания каналов [ms]
+1292=Режимы TX
+1293=Новый Scan List
+1294=Новый Zone List
+1295=Изменить(Edit)
+1350=Top Button
+1353=Side Button1
+1356=Side Button2
+1359=Короткое наж.
+1360=Длинное наж.
+1361=Радио Кнопки
+1362=Доступ в одно касание
+1363=Number Key быстрого доступа к контакту
+1366=Emergency Short Press Duration[ms]
+1369=Длинное нажатие. Более....[ms]
+1374=Side Button3
+1389=Канал возврата GPS
+1391=Интервал отчёта GPS каждые...[s]
+1393=Место назначения ID
+1400=Add
+1401=Delete
+1404=Export
+1405=Import
+
+1604=&Read
+1605=&Write
+1606=&Open Test Data
+1607=&Save Test Data
+1608=&Enter Adjust
+
+1700=->>
+1701=->|
+1702=|<-
+1703=<<-
+1707=Доступные контакты
+1708=Выбранные
+1709=Название группы
+1711=Add>>
+1712=<<Delete
+
+1730=Выбранные для "A"
+1732=Add>>
+1733=<<Delete
+1734=Выбранные для "B"
+1736=Add>>
+1737=<<Delete
+
+1850=Радио Отключить декодирование
+1851=Декодирован. удалённого монитора
+1852=Emergency Декод. удалён. монитора
+1853=Время удаленного монитора [s]
+1856=Tx Синхрон.пробуждение TOT[ms]
+1859=Tx Лимит сообщ. о пробуждении
+1862=Название системы
+1863=Emergency Alarm System
+1864=Тип сигн. тревоги
+1866=Режим тревоги
+1868=Tx Interrupt
+1869=Наглые Повторы
+1872=Вежливые Повторы
+1875=Время микрофона [s]
+1878=Отменить Канал
+
+1900=Название Зоны
+1902=Доступные каналы
+1903=Выбранные
+1904=Доступные каналы
+
+1950=Имя списка скан.
+1952=Приоритетный канал 1
+1954=Приоритетный канал 2
+1956=Назначить канал Tx
+1958=PL Type
+1960=Talkback
+1961=Channel Marker
+1962=Время удержания канала [ms]
+1965=и приоритетного канала [ms]
+
+2001=Режим канала
+2002=Ширина полосы
+2004=АвтоСканирование
+2005=Шумоподавитель
+2007=Одинокий рабочий
+2008=Разрешит Talkaround
+2009=Только Приём
+2010=Слот ретранслятора
+2012=Цветовой код (CC)
+2014=Конфиденциальн. No.
+2016=Конфиденциальность
+2018=Private Call подтвержден.
+2019=RX Опорная Частота
+2021=Emergency Alarm Indication
+2022=Аварийная сигнализация Ack
+2023=Emergency Call Indication
+2024=TX  Опорная Частота
+2026=Обратная вспышка / Код выключения
+2027=QT Reverse
+2029=Система GPS
+2030=Мощность TX
+2032=Admit Criteria (Разр.TX)
+2041=Частота RX (MHz)
+2043=Частота TX (MHz)
+2047=Имя канала
+2049=Имя контакта
+2050=TOT[s]
+2051=Отдых после TOT [s]
+2052=Лист сканирования
+2053=Входит в Список групп
+2054=CTCSS/DCS Dec
+2055=CTCSS/DCS Enc
+2056=VOX
+2057=Аварийная система
+2058=Передач.Данных подтвержден.
+2059=Signaling Squelch
+2061=В критериях вызова
+2063=Система Сигналов Rx
+2065=Система Сигналов Tx
+2067=Decode 1
+2068=Decode 2
+2069=Decode 3
+2070=Decode 4
+2071=Decode 5
+2072=Decode 6
+2073=Decode 7
+2074=Decode 8
+2075=QT Обратный
+2077=Non-QT/DQT Turn-off Freq
+2079=Compressed UDP Data Header
+2080=Показать PTT ID
+2081=Шаг
+2083=Разреш. прерывание
+2084=Двойной слот (DCDM)
+2085=Leader/MS
+2090=Отправлять GPS Info
+2091=Получать GPS Info
+
+2102=Режим Tx
+
+2200=Please select adjust item
+2207=Close
+
+2302=Задержка перв.циф[ms]
+2305=Время первой циф.[ms]
+2308=Время цифр [ms]
+2311=Время пауз [ms]
+2314=Время для *# [ms]
+2317=Назначение клавиш[ms]
+2320=Следующая посл....[s]
+2323=Время автосброса [s]
+2326=DTMF боковой тон
+2328=PTT ID
+2329=Код группы
+2331=KeyUp шифровать
+2333=KeyDown шифровать
+2336=DTMF ID
+2338=Тип ответа
+2340=Тип декодирования
+2342=ACK
+2344=Задержка ACK [ms]
+2347=Revert CH
+2351=Change Password
+
+[VoiceAnnouncement]
+0=English
+1=Chinese
+
+[SignalingSquelch]
+0=None
+1=And
+2=Or
+
+[DecodeCondition]
+0=Всегда
+1=Придерживаться Admit Criteria
+2=Прерывать Tx
+
+[SignalingSystem]
+0=Off
+1=DTMF-1
+2=DTMF-2
+3=DTMF-3
+4=DTMF-4
+
+[DtmfEncode]
+0=No.
+1=Encode
+
+[PTTID]
+0=None
+1=Pre Only
+2=Post Only
+3=Pre & Post
+
+[GroupCode]
+0=None
+1=A
+2=B
+3=C
+4=D
+5=*
+6=#
+
+[ResponseType]
+0=General
+1=Kill
+2=Stun
+3=Active
+4=Un Stun
+
+[DecodeType]
+0=None
+1=Sel Call
+
+
+[OneTouchAccessMode]
+0=None
+1=Digital
+2=Analog
+
+[OneTouchAccessCallType]
+0=Call
+1=Text Message
+2=Call Alert
+3=Duplex
+4=DTMF-1
+5=DTMF-2
+6=DTMF-3
+7=DTMF-4
+
+[OneTouchAccess]
+0=No.
+1=Mode
+2=Call
+3=Call Type
+4=Message/Encode
+
+[MonitorType]
+0=Бесшумный
+1=Открыт.шумоподав
+
+[TalkPermitTone]
+0=Нет
+1=Цифра
+2=Аналог
+3=Аналог & Цифра
+
+[PrivacyType]
+0=Нет
+1=Базовая
+2=Повышенная
+
+[KeyData]
+0=Unassigned (default)
+1=All Alert Tones On/Off
+2=Emergency On
+3=Emergency Off
+4=Power Select
+5=Monitor
+6=Nuisance Delete
+7=One Touch Access 1
+8=One Touch Access 2
+9=One Touch Access 3
+10=One Touch Access 4
+11=One Touch Access 5
+12=One Touch Access 6
+13=Repeater/Talkaround
+14=Scan On/Off
+15=Radio Check
+16=Radio Disable
+17=Radio Enable
+18=Radio Name
+19=Remote Monitor
+20=Text Message
+21=Tight/Normal Squelch
+22=Privacy On/Off
+23=VOX On/Off
+24=Zone +
+25=Zone Toggle
+26=Battery Indicator
+27=Backlight Auto On/Off
+28=Contacts
+29=Keypad Lock
+30=Manual Dial For Private
+31=Lone Work On/Off
+32=Man Down On/Off
+33=Light LED On/Off
+34=Record On/Off(Firmware)
+35=Record Playback(Firmware)
+36=Delete All Record(Firmware)
+37=Record Forword Play(Firmware)
+38=1750Hz
+39=Tone Freq(700HZ)
+40=Tone Freq(900HZ)
+41=Tone Freq(1000HZ)
+42=Tone Freq(1400HZ)
+43=Tone Freq(2100HZ)
+44=Lone Work Time+
+45=Lone Work Time-
+46=Lone Work Confirm Time
+47=Switch Up/Down Screen
+48=Right Key
+49=Left Key
+50=Time Announce
+51=FM Scan
+52=Record Alarm Tone
+53=Tx Alarm Tone
+54=GPS Adjust
+55=Zone -
+
+
+
+[GridTextMessage]
+0=No.
+1=Text Message
+
+[GridContact]
+0=No.
+1=Контактное лицо
+2=Тип вызова
+3=Call ID
+4=Call Receive Tone
+
+[ContactCallType]
+0=Group Call
+1=Private Call
+2=All Call
+3=Dispatch Call
+4=PC Call
+
+[TestModeText]
+0=Func Para/Freq
+1=A : Rx Freq
+2=A : Tx Freq
+3=B : Rx Freq
+4=B : Tx Freq
+5=A : VOX 1 
+6=A : VOX 10
+7=A : Rx Low Voltage
+8=A : Rx Full Voltage
+9=A : RSSI 1(-120dBm)
+10=A : RSSI 4(-70dBm)
+11=A : Freq Adjust(Mid)
+12=A : Tx Hight Power
+13=A : Tx Middle Power
+14=A : Tx Low Power
+15=A : Rx Sentivity
+16=A : Open SQL 9
+17=A : Close SQL 9
+18=A : Open SQL 1
+19=A : Close SQL 1
+20=A : CTCSS(67Hz)
+21=A : CTCSS(151.4Hz)
+22=A : CTCSS(254.1Hz)
+23=A : DCS Mod1
+24=A : Send I Range
+25=A : Send Q Range
+26=A : Analog Send I Range
+27=A : Analog Send Q Range
+28=B : Freq Adjust(Mid)
+29=B : Tx Hight Power
+30=B : Tx Middle Power
+31=B : Tx Low Power
+32=B : Rx Sentivity
+33=B : CTCSS(67Hz)
+34=B : CTCSS(151.4Hz)
+35=B : CTCSS(254.1Hz)
+36=B : DCS Mod1
+37=B : Send I Range
+38=B : Send Q Range
+39=B : Analog Send I Range
+40=B : Analog Send Q Range
+41=B : Open SQL 9
+42=B : Close SQL 9
+43=B : Open SQL 1
+44=B : Close SQL 1
+
+[BasicEnhanced]
+0=Нет.
+1=Значение ключа (базовое) Basic
+
+[Enhanced]
+0=Нет.
+1=Значение ключа (расширенное) Enhanced
+
+[AlarmType]
+0=Disabled
+1=Regular
+2=Silent
+3=Silent w/Voice
+
+[AlarmMode]
+0=Emergency Alarm
+1=Emergency Alarm w/Call
+2=Emergency Alarm w/Voice To Follow
+
+[PlType]
+0=Disabled
+1=Non-Priority Channel
+2=Priority Channel
+3=Priority and Non-Priority Channel
+
+[ChannelMode]
+0=Auto
+1=Analog
+2=Digital
+
+[BandWidth]
+0=12.5kHz
+1=20kHz
+2=25kHz 
+
+[Squelch]
+0=Строгий
+1=Нормальный
+
+[RefFreq]
+0=Low
+1=Medium
+2=High
+
+[QtReverse]
+0=180
+1=120
+
+[Power]
+0=Low
+1=Middle
+2=High
+
+[AdmitCriteria]
+0=Всегда
+1=Свободный Канал
+2=Верный CTCSS/CDCSS
+3=Цветовой код CC
+
+[QTReverseType]
+0=180
+1=120
+2=240
+3=Бесшумный
+
+[NonQTDQTReverse]
+0=259.2Hz
+1=55.2Hz
+2=None
+
+[AdjustText]
+0=A : VOX 1
+1=A : VOX 10
+2=A : Rx Low Voltage
+3=A : Rx Full Voltage
+4=A : RSSI 1
+5=A : RSSI 4
+6=A : Freq Adjust
+7=A : Tx Hight Power
+8=A : Tx Middle Power
+9=A : Tx Low Power
+10=A : Rx Sentivity
+11=A : Open SQL 9
+12=A : Close SQL 9
+13=A : Open SQL 1
+14=A : Close SQL 1
+15=A : CTCSS(67Hz)
+16=A : CTCSS(151.4Hz)
+17=A : CTCSS(254.1Hz)
+18=A : DCS Mod1
+19=A : Digital Send I Range & Q Range
+20=A : Analog Send I Range & Q Range
+21=A : Bit Error Rate Test
+22=B : Freq Adjust
+23=B : Tx Hight Power
+24=B : Tx Middle Power
+25=B : Tx Low Power
+26=B : Rx Sentivity
+27=B : CTCSS(67Hz)
+28=B : CTCSS(151.4Hz)
+29=B : CTCSS(254.1Hz)
+30=B : DCS Mod1
+31=B : Digital Send I Range & Q Range
+32=B : Analog Send I Range & Q Range
+33=B : Open SQL 9
+34=B : Close SQL 9
+35=B : Open SQL 1
+36=B : Close SQL 1
+37=B : Bit Error Rate Test
+
+[IntroScreen]
+0=Символьное
+1=Рисунок
+
+[ModelSelect]
+0=VFO
+1=MR
+
+[FreqChMode]
+0=Частота
+1=Название Канала
+
+[WriteContacts]
+0=Radio ID
+1=CallSign
+2=Name
+3=NickName
+4=City
+5=State
+6=Country
+
+[LeaderMs]
+0=Leader
+1=MS
+
+[TxMode]
+0=Последний CH
+1=Последний CH + Ручной CH
+2=Назначен.CH
+3=Назначен.CH + Ручной CH
+
+

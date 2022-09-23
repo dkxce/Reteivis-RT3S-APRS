@@ -1,0 +1,816 @@
+[TreeMainMenu]
+0=ARD001
+1=Basic Information
+2=General Setting
+3=Menu Item
+4=Buttons Definitions
+5=Text Message
+6=Privacy Setting
+7=Digit Emergency System
+8=Digital Contact
+9=Digital RX Group Call
+10=Zone Information
+11=Scan List
+12=Channel Information
+13=DTMF Signaling
+14=VFO Mode
+15=GPS System
+[MENU]
+FILE=&File
+FILE_NEW=&New\tCtrl+N
+FILE_OPEN=&Open...\tCtrl+O
+FILE_SAVE=&Save\tCtrl+S
+FILE_SAVE_AS=Save &As...
+FILE_PRINT=&Print...\tCtrl+P
+FILE_PRINT_PREVIEW=Print Pre&view
+APP_EXIT=E&xit
+
+
+EDIT=&Edit
+EDIT_BASICINFO=Basic Information
+EDIT_GENERALSETTING=General Setting
+EDIT_MENUITEM=Menu Item
+EDIT_BUTTONS=Buttons Definitions
+EDIT_TEXTMESSGE=Text Message
+EDIT_PRIVACYSETTING=Privacy Setting
+EDIT_EMERGENCYSYSTEM=Digit Emergency System
+EDIT_CONTACT=Digital Contact
+EDIT_RXGROUPCALL=Digital RX Group Call
+EDIT_ZONE=Zone Information
+EDIT_SCANLIST=Scan List
+EDIT_CHANNELINFO=Channel Information
+EDIT_DTMFSIGNALING=DTMF Signaling
+EDIT_TIMESETTING=Time Setting
+EDIT_VFOMODE=VFO Mode
+EDIT_GPSSYSTEM=GPS System
+
+PROGRAM=&Program
+PROGRAM_READDATA=&Read data\tCtrl+R
+PROGRAM_WRITEDATA=&Write data\tCtrl+W
+PROGRAM_TESTMODE=&Test Mode\tCtrl+T
+PROGRAM_WRITECONTACTS=Write Contacts
+
+
+SETTING=&Setting
+SETTING_CHINESE=Русский
+SETTING_ENGLISH=Englsih
+
+VIEW=&View
+VIEW_TREEBAR=&Tree Bar
+VIEW_TOOLBAR=&Toolbar
+VIEW_STATUS_BAR=&Status Bar
+
+WINDOW=&Window
+WINDOW_CASCADE=&Cascade
+WINDOW_TILE_HORZ=&Tile
+WINDOW_ARRANGE=&Arrange Icons
+
+HELP=&Help
+HELP_HELP=&Help
+APP_ABOUT=&About ...
+
+
+MENU_ADD=&Add
+MENU_COPY=&Copy
+MENU_PASTE=&Paste
+MENU_DELETE=&Delete
+
+[String]
+IDS_WARN_CLEAR=All data will be cleared.
+IDS_WARN=Warning
+
+
+IDS_TIP_32783=Read
+IDS_TIP_32784=Write
+IDS_TIP_57600=New
+IDS_TIP_57601=Open
+IDS_TIP_57603=Save
+IDS_TIP_57607=Print
+IDS_TIP_32787=Help
+
+IDS_CONTINUE=Continue
+IDS_HANG=Hang
+IDS_NUMBERKEY=Number Key
+IDS_OFF=Off
+IDS_NONE=None
+IDS_YES=Yes
+IDS_NO=No
+IDS_EXIST_NAME=Name is already exist!
+IDS_EXIST_CALLID=Call ID is already exist!
+IDS_INFINITE=Infinite
+IDS_PROMPT_GROUPLISTMEMBER=Contact member shall not be greater than 32!
+IDS_PROMPT_CHANNELMEMBER=Channel member shall not be greater than 64!
+IDS_PROMPT_CHANNELMEMBER1=Channel member shall not be greater than 31!
+IDS_SELECTED=Selected
+IDS_LASTACTIVE=Last Active Channel
+IDS_WARN_LOAD=The Model is wrong!
+IDS_WARN_FREQRANGE=The Frequency Range is wrong!
+IDS_ERROR_PASSWORD=The password is wrong!
+IDS_PROMPT_PASSWORDSUCC=Change password succ!
+
+IDS_UNNAMEDDFUDEVICCE= Unnamed DFU!
+IDS_UNKNOWHIDDEVICE=Unknow HID!
+
+IDS_PROMPT=Prompting
+IDS_PROMPT_READ=Reading data from radio...
+IDS_PROMPT_WRITE=Writing data to radio...
+IDS_PROMPT_READFAIL=Read data fail!
+IDS_PROMPT_WRITEFAIL=Write data fail!
+IDS_PROMPT_READSUCC=Read data succ!
+IDS_PROMPT_WRITESUCC=Write data succ!
+IDS_READDATA=Read data from radio
+IDS_WRITEDATA=Write data to radio
+IDS_PROMPT_EXPORTSUCC=Export succ!
+IDS_PROMPT_IMPORTSUCC=Import succ!
+IDS_PROMPT_VERSIONERROR=Firmware Error!
+
+IDS_MODELSETTING=Model Information
+
+IDS_ERROR=Error
+IDS_ERROR_PORTCONN=Please check whether the USB is occupied or not connected.
+
+IDS_RXFREQ=Rx Freq :
+IDS_TXFREQ=Tx Freq :
+IDS_CHANNEL=CH
+
+
+IDS_PCSOFTWARE=0112
+IDS_VERSION=Version : V1.12
+IDS_COPYRIGHT=Copyright : Shenzhen Retevis Electronics Technology Co., Ltd
+IDS_ABOUTCOPYRIGHT=Copyright : Shenzhen Retevis Electronics Technology Co., Ltd
+IDS_NAME=Name : 
+IDS_PROGRAM=Radio Programming Software
+
+
+IDS_DTMFSYSTEM=System
+IDS_DTMFENCODE=Encode
+IDS_DTMFDECODE=Decode
+IDS_DKEY=D Key
+IDS_CURRENTCH=Selected
+
+IDS_PASSWORDEIGHT=Password is less than 8 digits!
+IDS_MANUAL=Manual
+IDS_ALWAYS=Always
+
+IDS_EMERGENCYONOFF=Emergency On/Off
+IDS_GPSCURRENTCH=Current CH
+[Resource]
+1=OK
+2=Cancel
+114=Test Mode
+132=Adjust Mode
+147=Please input the password
+159=Please input the password
+160=Change Password
+161=Time Setting
+165=Read/Write Contacts
+1000=Last Programmed Date
+1002=Model Name
+1004=Frequency Range A
+1006=Model Number
+1008=Main Model
+1010=Serial Number
+1012=CPS Software Version
+1013=Cancel
+1014=Hardware Version
+1017=MCU Version
+1019=Unique Device ID
+1021=Frequency Range B
+1023=Frequency Range
+1055=Digital/Analog Data
+1056=Digital Data
+1057=Analog Data
+1058=Read
+1059=Write
+1060=Export
+1061=Import
+
+1082=Old Password:
+1084=New Password:
+1089=Please input the password:
+1092=Read
+1093=Write
+1094=Time Setting
+1096=Current Time
+1100=Private Calls
+1101=Diable All LEDS
+1102=Monitor Type
+1104=Analog Mic AGC
+1105=Digital Mic AGC
+1106=Save Preamble
+1107=Save Mode Receive
+1108=Disable All Tone
+1109=Escalert Tone
+1110=CH Free Indication Tone
+1111=Password and Lock Enable
+1112=Talk Permit Tone
+1114=Scan Priority Alert
+1115=Radio ID
+1117=TX Preamble Duration[ms]
+1120=Group Call Hang Time[ms]
+1123=Private Call Hang Time[ms]
+1126=VOX Sensitivity
+1128=Analog Mic Gain
+1131=Digital Mic Gain
+1134=RX Low Battery Interval[s]
+1137=Call Alert Tone Duration[s]
+1140=Lone Worker Response Time[min]
+1143=Lone Worker Reminder Time[s]
+1146=Privacy Type
+1148=Scan Digital Hang Time[ms]
+1151=Scan Analog Hang Time[ms]
+1154=Power On Password
+1156=Radio Name
+1158=Scan
+1159=Alert Tone
+1160=Lone Worker
+1161=MIC
+1162=Talkaround
+1163=Save
+1164=CH Voice Announcement
+1165=PC Programming Password
+1167=Voice Announcement
+1169=Power On Password
+1170=Voice Announcement
+1171=Radio Program Password
+1173=Set Keypad Lock Time[s]
+1175=Back Light Time[s]
+1177=Intro Screen
+1178=Intro Screen
+1180=Intro Screen Line 1
+1182=Intro Screen Line 2
+
+
+1184=Freq/Channel Mode
+1186=Model Select A
+1190=Model Select B
+1192=Time Zone
+1194=Group Call Match
+1195=Private Call Match
+1196=Channels Hang Time[ms]
+
+1200=Radio ID 1
+1202=Radio ID 2
+1204=Radio ID 3
+1206=Auto Shutdown Time[min]
+1208=MIC Level
+1210=Edit Radio ID
+1211=Public Zone
+
+1250=Menu Hang Time[s]
+1253=Text Message
+1254=Call Alert
+1255=Edit
+1256=Manual Dial
+1257=Radio Check
+1258=Remote Monitor
+1259=Radio Enable
+1260=Radio Disable
+1261=Program Key
+1262=Scan
+1263=Edit List
+1264=Missed
+1265=Answered
+1266=Outgoing Radio
+1267=Talkaround
+1268=Tone or Alert
+1269=Power
+1270=Backlight
+1271=Intro Screen
+1272=Keyboard Lock
+1273=LED Indicator
+1274=Squelch
+1275=Privacy
+1276=VOX
+1277=Password and Lock
+1278=Contacts
+1279=Scan
+1280=Call Log
+1281=Utilities
+1282=Program Radio
+1283=Display Mode
+1284=GPS
+1285=Zone
+1286=Zone
+1287=Group Call Match
+1288=Private Call Match
+1289=Menu Hang Time
+1290=Record Switch
+1291=Channels Hang Time[ms]
+1292=TX Mode
+1293=New Scan List
+1294=New Zone List
+1295=Edit Zone
+1350=Top Button
+1353=Side Button1
+1356=Side Button2
+1359=Short Press
+1360=Long Press
+1361=Radio Buttons
+1362=One Touch Access
+1363=Number Key Quick Contact Access
+1366=Emergency Short Press Duration[ms]
+1369=Long Press Duration[ms]
+1374=Side Button3
+1389=GPS Revert Channel
+1391=Default GPS Report Interval[s]
+1393=Destination ID
+1400=Add
+1401=Delete
+1404=Export
+1405=Import
+
+1604=&Read
+1605=&Write
+1606=&Open Test Data
+1607=&Save Test Data
+1608=&Enter Adjust
+
+1700=->>
+1701=->|
+1702=|<-
+1703=<<-
+1707=Available Contact
+1708=Contact Member
+1709=Group List Name
+1711=Add>>
+1712=<<Delete
+
+1730=Channel Member A
+1732=Add>>
+1733=<<Delete
+1734=Channel Member B
+1736=Add>>
+1737=<<Delete
+
+1850=Radio Disable Decode
+1851=Remote Monitor Decode
+1852=Emergency Remote Monitor Decode
+1853=Remote Monitor Duration[s]
+1856=Tx Sync Wakeup TOT[ms]
+1859=Tx Wakeup Message Limit
+1862=System Name
+1863=Emergency Alarm System
+1864=Alarm Type
+1866=Alarm Mode
+1868=Tx Interrupt
+1869=Impolite Retries
+1872=Polite Retries
+1875=Hot Mic Duration[s]
+1878=Revert Channel
+
+1900=Zone Name
+1902=Available Channel
+1903=Channel Member
+1904=Available Channel
+
+1950=Scan List Name
+1952=Priority Channel 1
+1954=Priority Channel 2
+1956=Tx Designated Channel
+1958=PL Type
+1960=Talkback
+1961=Channel Marker
+1962=Signaling Hold Time[ms]
+1965=Priority Sample Time[ms]
+
+2001=Channel Mode
+2002=Band Width
+2004=Auto Scan
+2005=Squelch
+2007=Lone Worker
+2008=Allow Talkaround
+2009=Rx Only
+2010=Repeater Slot
+2012=Color Code
+2014=Privacy No.
+2016=Privacy
+2018=Private Call Confirmed
+2019=RX Ref Frequency
+2021=Emergency Alarm Indication
+2022=Emergency Alarm Ack
+2023=Emergency Call Indication
+2024=TX Ref Frequency
+2026=Reverse Burst/Turn-off Code
+2027=QT Reverse
+2029=GPS System
+2030=Power
+2032=Admit Criteria
+2041=RX Frequency(MHz)
+2043=TX Frequency(MHz)
+2047=Channel Name
+2049=Contact Name
+2050=TOT[s]
+2051=TOT Rekey Delay[s]
+2052=Scan List
+2053=Group List
+2054=CTCSS/DCS Dec
+2055=CTCSS/DCS Enc
+2056=VOX
+2057=Emergency System
+2058=Data Call Confirmed
+2059=Signaling Squelch
+2061=In Call Criteria
+2063=Rx Signaling System
+2065=Tx Signaling System
+2067=Decode 1
+2068=Decode 2
+2069=Decode 3
+2070=Decode 4
+2071=Decode 5
+2072=Decode 6
+2073=Decode 7
+2074=Decode 8
+2075=QT Reverse
+2077=Non-QT/DQT Turn-off Freq
+2079=Compressed UDP Data Header
+2080=Display PTT ID
+2081=Step
+2083=Allow Interrupt
+2084=DCDM Switch
+2085=Leader/MS
+2090=Send GPS Info
+2091=Receive GPS Info
+
+2102=Tx Mode
+
+2200=Please select adjust item
+2207=Close
+
+2302=First Digit Delay[ms]
+2305=First Digit Time[ms]
+2308=Digit Duration Time[ms]
+2311=Digit Interval Time[ms]
+2314=*# Digit Time[ms]
+2317=D Key Assignment[ms]
+2320=Next Sequence Decode[s]
+2323=Auto Reset Time[s]
+2326=DTMF Side Tone
+2328=PTT ID
+2329=Group Code
+2331=KeyUp Encode
+2333=KeyDown Encode
+2336=DTMF ID
+2338=Response Type
+2340=Decode Type
+2342=ACK
+2344=ACK Delay Time[ms]
+2347=Revert CH
+2351=Change Password
+
+[VoiceAnnouncement]
+0=English
+1=Chinese
+
+[SignalingSquelch]
+0=None
+1=And
+2=Or
+
+[DecodeCondition]
+0=Always
+1=Follow Admit Criteria
+2=Tx Interrupt
+
+[SignalingSystem]
+0=Off
+1=DTMF-1
+2=DTMF-2
+3=DTMF-3
+4=DTMF-4
+
+[DtmfEncode]
+0=No.
+1=Encode
+
+[PTTID]
+0=None
+1=Pre Only
+2=Post Only
+3=Pre & Post
+
+[GroupCode]
+0=None
+1=A
+2=B
+3=C
+4=D
+5=*
+6=#
+
+[ResponseType]
+0=General
+1=Kill
+2=Stun
+3=Active
+4=Un Stun
+
+[DecodeType]
+0=None
+1=Sel Call
+
+
+[OneTouchAccessMode]
+0=None
+1=Digital
+2=Analog
+
+[OneTouchAccessCallType]
+0=Call
+1=Text Message
+2=Call Alert
+3=Duplex
+4=DTMF-1
+5=DTMF-2
+6=DTMF-3
+7=DTMF-4
+
+[OneTouchAccess]
+0=No.
+1=Mode
+2=Call
+3=Call Type
+4=Message/Encode
+
+[MonitorType]
+0=Silent
+1=Open Squelch
+
+[TalkPermitTone]
+0=None
+1=Digital
+2=Analog
+3=Analog & Digital
+
+[PrivacyType]
+0=None
+1=Basic
+2=Enhanced
+
+[KeyData]
+0=Unassigned (default)
+1=All Alert Tones On/Off
+2=Emergency On
+3=Emergency Off
+4=Power Select
+5=Monitor
+6=Nuisance Delete
+7=One Touch Access 1
+8=One Touch Access 2
+9=One Touch Access 3
+10=One Touch Access 4
+11=One Touch Access 5
+12=One Touch Access 6
+13=Repeater/Talkaround
+14=Scan On/Off
+15=Radio Check
+16=Radio Disable
+17=Radio Enable
+18=Radio Name
+19=Remote Monitor
+20=Text Message
+21=Tight/Normal Squelch
+22=Privacy On/Off
+23=VOX On/Off
+24=Zone +
+25=Zone Toggle
+26=Battery Indicator
+27=Backlight Auto On/Off
+28=Contacts
+29=Keypad Lock
+30=Manual Dial For Private
+31=Lone Work On/Off
+32=Man Down On/Off
+33=Light LED On/Off
+34=Record On/Off(Firmware)
+35=Record Playback(Firmware)
+36=Delete All Record(Firmware)
+37=Record Forword Play(Firmware)
+38=1750Hz
+39=Tone Freq(700HZ)
+40=Tone Freq(900HZ)
+41=Tone Freq(1000HZ)
+42=Tone Freq(1400HZ)
+43=Tone Freq(2100HZ)
+44=Lone Work Time+
+45=Lone Work Time-
+46=Lone Work Confirm Time
+47=Switch Up/Down Screen
+48=Right Key
+49=Left Key
+50=Time Announce
+51=FM Scan
+52=Record Alarm Tone
+53=Tx Alarm Tone
+54=GPS Adjust
+55=Zone -
+
+
+
+[GridTextMessage]
+0=No.
+1=Text Message
+
+[GridContact]
+0=No.
+1=Contact Name
+2=Call Type
+3=Call ID
+4=Call Receive Tone
+
+[ContactCallType]
+0=Group Call
+1=Private Call
+2=All Call
+3=Dispatch Call
+4=PC Call
+
+[TestModeText]
+0=Func Para/Freq
+1=A : Rx Freq
+2=A : Tx Freq
+3=B : Rx Freq
+4=B : Tx Freq
+5=A : VOX 1 
+6=A : VOX 10
+7=A : Rx Low Voltage
+8=A : Rx Full Voltage
+9=A : RSSI 1(-120dBm)
+10=A : RSSI 4(-70dBm)
+11=A : Freq Adjust(Mid)
+12=A : Tx Hight Power
+13=A : Tx Middle Power
+14=A : Tx Low Power
+15=A : Rx Sentivity
+16=A : Open SQL 9
+17=A : Close SQL 9
+18=A : Open SQL 1
+19=A : Close SQL 1
+20=A : CTCSS(67Hz)
+21=A : CTCSS(151.4Hz)
+22=A : CTCSS(254.1Hz)
+23=A : DCS Mod1
+24=A : Send I Range
+25=A : Send Q Range
+26=A : Analog Send I Range
+27=A : Analog Send Q Range
+28=B : Freq Adjust(Mid)
+29=B : Tx Hight Power
+30=B : Tx Middle Power
+31=B : Tx Low Power
+32=B : Rx Sentivity
+33=B : CTCSS(67Hz)
+34=B : CTCSS(151.4Hz)
+35=B : CTCSS(254.1Hz)
+36=B : DCS Mod1
+37=B : Send I Range
+38=B : Send Q Range
+39=B : Analog Send I Range
+40=B : Analog Send Q Range
+41=B : Open SQL 9
+42=B : Close SQL 9
+43=B : Open SQL 1
+44=B : Close SQL 1
+
+[BasicEnhanced]
+0=No.
+1=Key Value(Basic)
+
+[Enhanced]
+0=No.
+1=Key Value(Enhanced)
+
+[AlarmType]
+0=Disabled
+1=Regular
+2=Silent
+3=Silent w/Voice
+
+[AlarmMode]
+0=Emergency Alarm
+1=Emergency Alarm w/Call
+2=Emergency Alarm w/Voice To Follow
+
+[PlType]
+0=Disabled
+1=Non-Priority Channel
+2=Priority Channel
+3=Priority and Non-Priority Channel
+
+[ChannelMode]
+0=Auto
+1=Analog
+2=Digital
+
+[BandWidth]
+0=12.5kHz
+1=20kHz
+2=25kHz 
+
+[Squelch]
+0=Tight
+1=Normal
+
+[RefFreq]
+0=Low
+1=Medium
+2=High
+
+[QtReverse]
+0=180
+1=120
+
+[Power]
+0=Low
+1=Middle
+2=High
+
+[AdmitCriteria]
+0=Always
+1=Channel Free
+2=Correct CTCSS/CDCSS
+3=Color Code
+
+[QTReverseType]
+0=180
+1=120
+2=240
+3=Silent
+
+[NonQTDQTReverse]
+0=259.2Hz
+1=55.2Hz
+2=None
+
+[AdjustText]
+0=A : VOX 1
+1=A : VOX 10
+2=A : Rx Low Voltage
+3=A : Rx Full Voltage
+4=A : RSSI 1
+5=A : RSSI 4
+6=A : Freq Adjust
+7=A : Tx Hight Power
+8=A : Tx Middle Power
+9=A : Tx Low Power
+10=A : Rx Sentivity
+11=A : Open SQL 9
+12=A : Close SQL 9
+13=A : Open SQL 1
+14=A : Close SQL 1
+15=A : CTCSS(67Hz)
+16=A : CTCSS(151.4Hz)
+17=A : CTCSS(254.1Hz)
+18=A : DCS Mod1
+19=A : Digital Send I Range & Q Range
+20=A : Analog Send I Range & Q Range
+21=A : Bit Error Rate Test
+22=B : Freq Adjust
+23=B : Tx Hight Power
+24=B : Tx Middle Power
+25=B : Tx Low Power
+26=B : Rx Sentivity
+27=B : CTCSS(67Hz)
+28=B : CTCSS(151.4Hz)
+29=B : CTCSS(254.1Hz)
+30=B : DCS Mod1
+31=B : Digital Send I Range & Q Range
+32=B : Analog Send I Range & Q Range
+33=B : Open SQL 9
+34=B : Close SQL 9
+35=B : Open SQL 1
+36=B : Close SQL 1
+37=B : Bit Error Rate Test
+
+[IntroScreen]
+0=Char string
+1=Picture
+
+[ModelSelect]
+0=VFO
+1=MR
+
+[FreqChMode]
+0=Freq
+1=Channel
+
+[WriteContacts]
+0=Radio ID
+1=CallSign
+2=Name
+3=NickName
+4=City
+5=State
+6=Country
+
+[LeaderMs]
+0=Leader
+1=MS
+
+[TxMode]
+0=Last Call CH
+1=Last Call CH + HandCH
+2=Designed CH
+3=Designed CH + HandCH
+
+
